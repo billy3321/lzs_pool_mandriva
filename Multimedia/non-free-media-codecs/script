@@ -6,7 +6,7 @@ from lazyscripts import pkgmgr
 
 distro = platform.dist()
 
-if distro[0] not in ('Ubuntu','Debian'):	exit(1)
+if distro[0] not in ('fedora','redhat'):	exit(1)
 o = pkgmgr.get_pkgmgr(distro[0])
 if not o:	exit(1)
 
