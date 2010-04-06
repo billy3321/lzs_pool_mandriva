@@ -1,0 +1,14 @@
+#!/bin/bash
+
+cat > /etc/yum.repos.d/google.repo <
+[google]
+name=Google - $ARCH_NAME
+baseurl=http://dl.google.com/linux/rpm/stable/$ARCH_NAME
+enabled=1
+gpgcheck=1
+EOF
+
+yumi check-update
+
+yum -y install google-chrome-beta
+

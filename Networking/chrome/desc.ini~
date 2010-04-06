@@ -20,6 +20,4 @@ i386 = True
 fedora = True
 ubuntu = False
 debian = False
-centos = True
-redhat = True
 
