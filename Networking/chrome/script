@@ -1,5 +1,9 @@
 #!/bin/bash
 
+wget https://dl-ssl.google.com/linux/linux_signing_key.pub
+
+rpm --import linux_signing_key.pub
+
 cat > /etc/yum.repos.d/google.repo <
 [google]
 name=Google - $ARCH_NAME
