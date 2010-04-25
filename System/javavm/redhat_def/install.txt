@@ -1,3 +1,0 @@
-#pkg install list
-sun-java6-jre 
-sun-java6-plugin

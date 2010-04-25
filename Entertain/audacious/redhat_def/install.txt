@@ -1,3 +1,0 @@
-#pkg install list
-audacious 
-audacious-plugins-extra

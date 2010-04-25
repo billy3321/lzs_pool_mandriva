@@ -1,3 +1,0 @@
-#pkg install list
-scribus
-scribus-template
